@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Roboto;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.move-image {
+    background-color: rgb(25, 25, 25);
+    max-width: 50px ;
+    font-weight: 600;
+
+}
+.move-button {
+    background-color: transparent;
+    border:3px solid rgb(238, 238, 5);
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right:10px ;
+    cursor: pointer;
+}
+
+.js-results{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: yellow;
+}
+
+.js-score {
+    margin-top: 50px;
+    padding: 5px;
+    font-size: medium;
+    color: yellow;
+}
+.reset,
+.auto-play-button {
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    background-color: yellow;
+    color: rgb(8, 6, 6);
+    cursor: pointer;
+    border:none;
+}
+
+.confirmation-box {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    text-align: left;
+    color: yellow;
+}
+
+.confirmation-box button {
+    margin: 5px;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    background-color: yellow;
+    color: rgb(8, 6, 6);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
