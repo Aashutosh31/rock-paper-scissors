@@ -35,17 +35,17 @@ let score = JSON.parse(localStorage.getItem('score')) ||
 
         document.querySelector('.rock')
         .addEventListener('click', () => {
-            playGame('Rock')
+            playGame('rock')
         });
 
         document.querySelector('.paper')
         .addEventListener('click', () => {
-            playGame('Paper')
+            playGame('paper')
         });
 
         document.querySelector('.scissors')
         .addEventListener('click', () => {
-            playGame('Scissors')
+            playGame('scissors')
         });
 
         document.querySelector('.auto-play-button')
