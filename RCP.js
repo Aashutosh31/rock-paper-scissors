@@ -55,11 +55,11 @@ let score = JSON.parse(localStorage.getItem('score')) ||
 
         document.body.addEventListener('keydown',(event) => {
             if(event.key === 'r'){
-                playGame('Rock');
+                playGame('rock');
             }else if(event.key === 'p'){
-                playGame('Paper');
+                playGame('paper');
             }else if(event.key === 's'){
-                playGame('Scissors');
+                playGame('scissors');
             }
         });
 
@@ -96,49 +96,49 @@ let score = JSON.parse(localStorage.getItem('score')) ||
 
        
 
-        if (playerMove === 'Scissors')
+        if (playerMove === 'scissors')
         {
-        if (computerMove === 'Rock')
+        if (computerMove === 'rock')
         {
             result='You Lose.';
         } 
-        else if (computerMove === 'Paper')
+        else if (computerMove === 'paper')
         {
             result='You Win.';
         }
-        else if (computerMove === 'Scissors')
+        else if (computerMove === 'scissors')
         {
             result='Tie.';
         } 
         }
 
-        else if (playerMove === 'Paper')
+        else if (playerMove === 'paper')
         {
-        if (computerMove === 'Rock')
+        if (computerMove === 'rock')
         {
             result='You Win.';
         } 
-        else if (computerMove === 'Paper')
+        else if (computerMove === 'paper')
         {
             result='Tie.';
         }
-        else if (computerMove === 'Scissors')
+        else if (computerMove === 'scissors')
         {
             result='You Lose.';
         } 
         }
         
-        else if (playerMove === 'Rock')
+        else if (playerMove === 'rock')
         {
-            if (computerMove === 'Rock')
+            if (computerMove === 'rock')
         {
             result='Tie.';
         } 
-        else if (computerMove === 'Paper')
+        else if (computerMove === 'paper')
         {
             result='You Lose.';
         }
-        else if (computerMove === 'Scissors')
+        else if (computerMove === 'scissors')
         {
             result='You Win.';
         }
@@ -188,13 +188,13 @@ let score = JSON.parse(localStorage.getItem('score')) ||
  const randomNumber = Math.random();
 
 if(randomNumber >=0 && randomNumber <1/3) {
-             computerMove='Rock';
+             computerMove='rock';
         } 
         else if(randomNumber >=1/3 && randomNumber < 2/3) {
-             computerMove='Paper';
+             computerMove='paper';
         }
         else {
-             computerMove='Scissors';
+             computerMove='scissors';
         }
 
         return computerMove;
